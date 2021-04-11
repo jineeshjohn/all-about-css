@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+<style>
+
+.flex-c {
+    display: flex;
+    /* main axis */
+    justify-content: flex-start; 
+    /*cross axis*/
+    align-items: center; 
+    flex-direction: column;
+    min-height: 800px;
+}
+.flex-item {
+    background-color: #ccc;
+    border: 1px solid #000;
+    width: 200px;
+
+}
+.flex-item-1 {
+    min-height: 100px;
+}
+.flex-item-2 {
+    min-height: 200px;
+}
+.flex-item-3 {
+    min-height: 300px;
+}
+</style>
+</head>
+
+<body>
+
+    <div class="flex-c">
+        <div class="flex-item flex-item-1">Flex box1</div>
+        <div class="flex-item flex-item-2">Flex box2</div>
+        <div class="flex-item flex-item-3">Flex box3</div>
+    </div>
+
+</body>
+
+</html>
